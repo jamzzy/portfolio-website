@@ -17,6 +17,23 @@ h2 {
     font-size: 2rem;
 }
 
+h3 {
+    font-size: 1.5rem;
+    padding-bottom: 3rem;
+}
+
+section {
+    margin-top: 5rem;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+
+}
+
+img {
+    width: 100%;
+}
+
 /**Header**/
 
 header {
@@ -51,5 +68,20 @@ li {
 .resume {
     background-color: white;
     padding: 0.8rem;
+}
+
+/**Main**/
+
+.about-content-container {
+    padding-right: 3rem;
+    width: 30%;
+    
+}
+
+
+
+.img-container {
+    width: 40%;
+    height: auto;
 }
 
