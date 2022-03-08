@@ -19,15 +19,19 @@ h2 {
 
 h3 {
     font-size: 1.5rem;
-    padding-bottom: 3rem;
+    padding-bottom: 1rem;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    max-width: 1500px;
+    margin: 0 auto;
+
 }
 
 section {
-    margin-top: 5rem;
-    width: 100%;
-    justify-content: center;
-    display: flex;
-
+    display: block;
 }
 
 img {
@@ -73,15 +77,32 @@ li {
 /**Main**/
 
 .about-content-container {
-    padding-right: 3rem;
-    width: 30%;
-    
+    display: flex;
+
 }
 
-
-
-.img-container {
-    width: 40%;
+.about-content-container img {
+    width: 50%;
     height: auto;
+}
+
+.text-container {
+    margin-right: 2rem;
+}
+
+.skills-container {
+    display: flex;
+}
+
+.skill {
+    display: flex;
+    align-items: center;
+    margin-right: 3rem;
+}
+
+.skill-icon {
+
+    width: 5rem;
+
 }
 
