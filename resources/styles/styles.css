@@ -167,6 +167,17 @@ li {
     opacity: 1;
 }
 
+.contact-container {
+    display: flex;
+    
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+
+}
+
 
 
 
