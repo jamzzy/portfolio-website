@@ -2,10 +2,15 @@
 
 html {
     font-size: 16px;
+    background-color: #2e3138;
+    color: #dddbcb;
 }
 
 h1, h2, h3, h4, h5 {
     font-weight: bold;
+    color: #1b9aaa;
+    font-family: 'Source Sans Pro';
+
 }
 
 h1 {
@@ -20,6 +25,10 @@ h2 {
 h3 {
     font-size: 1.5rem;
     padding-bottom: 1rem;
+}
+
+p {
+    font-family: 'Mulish';
 }
 
 main {
@@ -44,7 +53,7 @@ header {
     display: flex;
     width: 100%;
     height: 15vh;
-    background-color: gray;
+    background-color: #dddbcb;
     justify-content: space-between;
     align-items: center;
     
@@ -56,12 +65,22 @@ li {
     padding: 0 0.3rem 0 0.3rem;
 }
 
+
+
 .name-container {
     margin-left: 2rem;
+     
 }
 
-.name-container h2 {
-    font-weight: normal;
+.name-container h1 {
+    color: #1b9aaa;
+
+}
+
+.name-container h2, li a {
+    font-weight: medium;
+    color: #2e3138;
+    font-family: 'Mukta';
 
 }
 
@@ -75,6 +94,7 @@ li {
 }
 
 /**Main**/
+
 
 .about-section {
     height: 70vh;
@@ -169,7 +189,7 @@ li {
 
 .contact-container {
     display: flex;
-    
+
 }
 
 .contact-item {
@@ -178,24 +198,12 @@ li {
 
 }
 
-
-
-
-
-
-.project-img:hover {
-    /**opacity:1;**/
+.contact-text p {
+    font-family: 'Mukta';
+    color: #dddbcb;
 }
 
-.project-item.one {
-    /*background-image: url("../images/tp-website.png");*/
-}
-
-.project-item.two {
-    /*background-image: url("../images/gameclub-website.png");*/
-    
-}
-
-.project-item.three{
-    /*background-image: url("../images/cheatsheet-website.png");*/
+.contact-text a {
+    color: #f5f1e3;
+    font-family: 'Mulish';
 }
