@@ -2,13 +2,13 @@
 
 html {
     font-size: 16px;
-    background-color: #dddbcb;
+    background-color: #FAF9F6;
     color: #2e3138;
 }
 
 h1, h2, h3, h4, h5 {
     font-weight: bold;
-    color: #1b9aaa;
+    color: #008080;
     font-family: 'Source Sans Pro';
 
 }
@@ -75,13 +75,13 @@ li {
 }
 
 .name-container h1 {
-    color: #1b9aaa;
+    color: #008080;
 
 }
 
 .name-container h2, li a {
     font-weight: medium;
-    color: #dddbcb;
+    color: #FAF9F6;
     font-family: 'Mukta';
 
 }
@@ -91,8 +91,8 @@ li {
 }
 
 .resume {
-    background-color: #1b9aaa;
-    color: #f5f1e3;
+    background-color: #008080;
+    color: #FAF9F6;
     padding: 0.8rem;
 }
 
@@ -100,7 +100,7 @@ li {
 
 
 .about-section {
-    height: 70vh;
+    height: 85vh;
 }
 .about-content-container {
     display: flex;
@@ -120,7 +120,7 @@ li {
 }
 
 .skills-section {
-    height: 15vh;
+    margin: 5vh 0;
 }
 
 .skills-container {
@@ -144,8 +144,8 @@ li {
 }
 
 .project-section {
-    margin-top: 5vh;
-    height: 95vh;
+    margin: 5vh 0;
+    
 }
 
 .projects-container {
@@ -195,21 +195,26 @@ li {
     opacity: 1;
 }
 
+.contact-section {
+    margin: 5vh 0;
+}
+
 .contact-container {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    justify-content: center;
+
+    
 
 }
 
 .contact-item {
     display: flex;
     align-items: center;
-    margin: 2rem 0;
+    margin: 0 2rem;
     
 
 }
-
+/**
 .contact-text {
     margin: 0 0.5rem;
 }
@@ -223,8 +228,8 @@ li {
 .contact-text a {
     color: #2e3138;
     font-family: 'Mulish';
-}
+} **/
 
 .contact-item img {
-    width: 48px;
+    width: 60px;
 }
