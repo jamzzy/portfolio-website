@@ -23,13 +23,14 @@ h2 {
 }
 
 h3 {
-    font-size: 1.5rem;
-    padding-bottom: 1rem;
+    font-size: 1.8rem;
+    padding-bottom: 1.5rem;
     text-align: center;
 }
 
 p {
     font-family: 'Mulish';
+    font-size: 1rem;
 }
 
 main {
@@ -104,8 +105,7 @@ li {
 .about-content-container {
     display: flex;
     align-items: center;
-    margin-top: 5vh;
-    margin-bottom: 5vh;
+    height: 100%;
 }
 
 .about-content-container img {
@@ -210,9 +210,14 @@ li {
 
 }
 
+.contact-text {
+    margin: 0 0.5rem;
+}
+
 .contact-text p {
     font-family: 'Mukta';
     color: #494949;
+    font-size: 0.9rem;
 }
 
 .contact-text a {
