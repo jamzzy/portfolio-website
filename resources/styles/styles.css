@@ -205,11 +205,46 @@ li a {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
+    align-items: center;
+    
+}
+
+.button-overlay button {
+    width: 25%;
+    margin: 0.3rem;
+    padding: 0.2rem 0;
+    border-radius: 5px;
+    font-family: 'Mukta';
+    color:#FAF9F6;
+    background: #008080;
+
+}
+
+.button-overlay button:hover {
+    cursor: pointer;
+}
+
+.project-description {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.project-description h4 {
+    margin-top: 1rem;
+}
+
+.project-description p {
+    font-family: 'Unica One';
+    font-size: 1rem;
     
 }
 
 .project-item:hover .project-img {
-    opacity: 0.3;
+    opacity: 0.15;
 
 }
 
