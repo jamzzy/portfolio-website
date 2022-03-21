@@ -184,6 +184,10 @@ li a {
     margin-right: 2rem;
 }
 
+span {
+    font-weight: bold;
+}
+
 @media only screen and (max-width: 900px) {
 
     .about-section {
