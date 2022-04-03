@@ -352,6 +352,7 @@ span {
 .contact-container {
     display: flex;
     justify-content: center;
+    
 }
 
 @media only screen and (max-width: 900px) {
@@ -365,6 +366,7 @@ span {
     display: flex;
     align-items: center;
     margin: 0 2rem;
+    border-bottom: 5px solid #FAF9F6;
 }
 
 .contact-item:hover {
