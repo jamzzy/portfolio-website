@@ -16,7 +16,7 @@ h1, h2, h3, h4, h5 {
 
 h1 {
     font-size: 3.5rem;
-    -webkit-text-stroke: 0.1px black;
+    -webkit-text-stroke: 0.5px black;
     text-shadow:
        3px 3px 0 #000,
      -1px -1px 0 #000,  
@@ -33,6 +33,7 @@ h3 {
     font-size: 1.8rem;
     padding-bottom: 1.5rem;
     text-align: center;
+   
 }
 
 p {
@@ -185,7 +186,9 @@ li a {
 }
 
 span {
-    font-weight: bold;
+    
+    font-size: 3rem;
+    
 }
 
 @media only screen and (max-width: 900px) {
@@ -228,6 +231,10 @@ span {
 
 .skill-icon {
     width: 5rem;
+}
+
+.skill-item p {
+    margin-left: 0.3rem;
 }
 
 @media only screen and (max-width: 900px) {
